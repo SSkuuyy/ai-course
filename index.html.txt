@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كورس إنشاء محتوى بالذكاء الاصطناعي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            text-align: right;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .feature {
+            flex: 1 1 calc(33.333% - 15px);
+            background-color: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .cta button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .cta button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>كورس إنشاء محتوى بالذكاء الاصطناعي</h1>
+        <p>ابدأ الآن رحلتك نحو النجاح بدون الحاجة للظهور بوجهك!</p>
+    </header>
+
+    <section>
+        <h2>ماذا ستتعلم في هذا الكورس؟</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>إعداد القناة من البداية</h3>
+                <p>تعلم كيفية اختيار اسم جذاب، تصميم لوجو وبانر احترافي، وضبط إعدادات القناة لتحسين ظهورها في نتائج البحث.</p>
+            </div>
+            <div class="feature">
+                <h3>إنشاء محتوى احترافي</h3>
+                <p>تعلم كتابة سكريبت احترافي، إضافة تعليق صوتي باستخدام الذكاء الاصطناعي، وإنشاء فيديوهات جذابة بجودة عالية.</p>
+            </div>
+            <div class="feature">
+                <h3>أسرار النجاح</h3>
+                <p>احصل على أدوات مدفوعة مجانًا، تعلم تقنيات العمل الحر، واكتشف طرق زيادة الدخل من قناتك.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>مميزات الكورس</h2>
+        <ul>
+            <li>تحديثات مستمرة ومحتويات جديدة.</li>
+            <li>دعم كامل للأعضاء للإجابة على أي استفسارات.</li>
+            <li>أدوات مجانية بالكامل لإنشاء محتوى احترافي.</li>
+        </ul>
+    </section>
+
+    <div class="cta">
+        <h2>لا تفوت الفرصة!</h2>
+        <p>احجز مكانك الآن بسعر رمزي واستثمر وقتك في مشروع ناجح.</p>
+        <button onclick="window.location.href='https://wa.me/201287156353'">احجز الآن عبر واتساب</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 كورس إنشاء محتوى بالذكاء الاصطناعي. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
